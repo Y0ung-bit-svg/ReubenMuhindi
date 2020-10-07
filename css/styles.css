@@ -9,17 +9,16 @@ body.active{overflow:hidden;
 }
 
   .no-js #experience-timeline>div{
-  background:#fff;
+  background:#000000;
   padding:10px;
   margin-bottom:10px;
-  border:1px
-  solid #dcd9d9
+  border:1px solid #fff
 }
 
   .no-js #experience-timeline>div h3{
   font-size:1.5em;
   font-weight:300;
-  color:#374054;
+  color:#fff;
   display:inline-block;
   margin:0
 }
@@ -27,12 +26,12 @@ body.active{overflow:hidden;
   .no-js #experience-timeline>div h4{
     font-size:1.2em;
     font-weight:300;
-    color:#7e8890;
+    color:#fff;
     margin:0 0 15px 0
   }
 
   .no-js #experience-timeline>div p{
-    color:#74808a;
+    color:#fff;
     font-size:0.9em;
     margin:0
   }
@@ -53,7 +52,7 @@ body.active{overflow:hidden;
 
   header ul{
     display:inline-block;
-    background:#fff;
+    background:#000000;
     text-align:center;
     padding:10px;
     margin:0;
@@ -67,19 +66,19 @@ body.active{overflow:hidden;
 
   header a{
     display:block;
-    color:#3498db;
+    color:#D63E12;
     padding:10px
   }
 
   header a:hover{
-    color:#217dbb;
+    color:#D63E12;
     text-decoration:none;
     background:#eee;
     border-radius:4px
   }
 
   header a:focus{
-    color:#3498db;
+    color:#D63E12;
     text-decoration:none
   }
 
@@ -102,24 +101,24 @@ body.active{overflow:hidden;
     position:fixed;
     right:15px;
     top:10px;
-    color:#3498db;
+    color:#D63E12;
     font-size:1.5em;
     z-index:20;
     padding:0 7px;
     border-radius:4px;
-    background:#fff
+    background:#000000
   }
 
   #mobile-menu-close{
     display:none;
     text-align:right;
     width:100%;
-    background:#fff;
+    background:#000000;
     font-size:1.5em;
     padding-right:15px;
     padding-top:10px;
     cursor:pointer;
-    color:#3498db
+    color:#D63E12
   }
 
   #mobile-menu-close span{
@@ -154,12 +153,12 @@ body.active{overflow:hidden;
     width:35px;
     height:35px;
     border-radius:50%;
-    border:3px solid #b9bfc4;
+    border:3px solid #fff;
     text-align:center
   }
 
   .top i{
-    color:#74808a
+    color:#fff
   }
 
   .social{
@@ -184,20 +183,20 @@ body.active{overflow:hidden;
   }
 
   .social a:hover{
-    color:#3498db
+    color:#D63E12
   }
 
   .btn-rounded-white{
     display:inline-block;
-    color:#fff;
+    color:#D63E12;
     padding:15px 25px;
-    border:3px solid #fff;
+    border:3px solid #000000;
     border-radius:30px;
     transition:.5s ease all
   }
 
   .btn-rounded-white:hover{
-    color:#3498db;
+    color:#D63E12;
     background:#fff;
     text-decoration:none
     }
@@ -221,8 +220,8 @@ body.active{overflow:hidden;
     width:50px;
     left:0;
     right:0;
-    margin:0
-    auto;background:#3498db
+    margin:0 auto;
+    background:#fff
   }
 
   .background-alt{
@@ -252,7 +251,7 @@ body.active{overflow:hidden;
   #lead-content h1,#lead-content h2{margin:0}
 
   #lead-content h1{
-    color:#fff;
+    color:#000000;
     font-weight:900;
     font-size:5em;
     text-transform:uppercase;
@@ -261,7 +260,7 @@ body.active{overflow:hidden;
   }
 
   #lead-content h2{
-    color:#a0cfee;
+    color:#000000;
     font-weight:500;
     font-size:2.25em;
     margin-bottom:15px
@@ -275,7 +274,7 @@ body.active{overflow:hidden;
     right:0;
     bottom:0;
     left:0;
-    background:rgba(33,125,187,0.8);
+    background:rgba(0,0,0,0.0);
     z-index:1
   }
 
@@ -297,7 +296,7 @@ body.active{overflow:hidden;
     width:35px;
     height:35px;
     border-radius:50%;
-    border:3px solid #a0cfee;
+    border:3px solid #fff;
     text-align:center
   }
 
@@ -311,26 +310,26 @@ body.active{overflow:hidden;
 
   #about{
     padding:75px 15px;
-    border-bottom:1px solid #dcd9d9
+    border-bottom:1px solid #fff
   }
 
   #about h2{
-    color:#374054
+    color:#D63E12
     }
 
   #about p{
-    color:#74808a;
+    color:#fff;
     margin:0
   }
 
   #experience{
     padding:50px 15px;
     text-align:center;
-    border-bottom:1px solid #dcd9d9
+    border-bottom:1px solid #fff
   }
 
   #experience h2{
-    color:#374054
+    color:#D63E12
     }
 
   #experience-timeline{
@@ -347,7 +346,7 @@ body.active{overflow:hidden;
     right:auto;
     height:100%;
     width:3px;
-    background:#3498db;
+    background:#D63E12;
     z-index:0
   }
 
@@ -356,8 +355,8 @@ body.active{overflow:hidden;
     content:'';
     width:3px;
     height:40px;
-    background:#3498db;
-    background:linear-gradient(to bottom, #3498db, rgba(52,152,219,0));
+    background:#D63E12;
+    background:linear-gradient(to bottom, #D63E12, rgba(174,0,0,0));
     top:100%;
     left:303px
   }
@@ -365,7 +364,7 @@ body.active{overflow:hidden;
   .vtimeline-content{
     margin-left:350px;
     background:#fff;
-    border:1px solid #e6e6e6;
+    border:1px solid #fff;
     padding:15px;
     border-radius:3px;
     text-align:left
@@ -374,7 +373,7 @@ body.active{overflow:hidden;
   .vtimeline-content h3{
     font-size:1.5em;
     font-weight:300;
-    color:#374054;
+    color:#000000;
     display:inline-block;
     margin:0
   }
@@ -382,13 +381,13 @@ body.active{overflow:hidden;
   .vtimeline-content h4{
     font-size:1.2em;
     font-weight:300;
-    color:#7e8890;
+    color:#000000;
     margin:0 0 15px 0
   }
 
   .vtimeline-content p{
-    color:#74808a;
-    font-size:0.9em;
+    color:#000000;
+    font-size:1em;
     margin:0
   }
 
@@ -401,10 +400,10 @@ body.active{overflow:hidden;
 
   .vtimeline-icon{
     position:relative;
-    color:#fff;
+    color:#000000;
     width:50px;
     height:50px;
-    background:#3498db;
+    background:#D63E12;
     border-radius:50%;
     float:left;
     z-index:99;
@@ -424,17 +423,17 @@ body.active{overflow:hidden;
     left:0;
     top:10px;
     font-weight:300;
-    color:#374054
+    color:#fff
   }
 
   #education{
     padding:50px 15px 20px 15px;
-    border-bottom:1px solid #dcd9d9;
+    border-bottom:1px solid #fff;
     text-align:center
   }
 
   #education h2{
-    color:#374054;
+    color:#D63E12;
     margin-bottom:50px
     }
 
@@ -442,7 +441,6 @@ body.active{overflow:hidden;
     max-width:700px;
     margin:0 auto 30px auto;
     padding:15px;
-    border:1px solid #dcd9d9;
     text-align:left
   }
 
@@ -450,33 +448,37 @@ body.active{overflow:hidden;
     font-weight:500;
     float:left;
     margin:0;
-    color:#374054
+    color:#D63E12
   }
 
   .education-block span{
-    color:#74808a;
+    color:#D63E12;
     float:right
   }
 
   .education-block h4{
-    color:#74808a;
+    color:#D63E12;
     clear:both;
     font-weight:500;
     margin:0 0 15px 0
   }
 
-  .education-block p,.education-block ul{margin:0;color:#74808a;font-size:0.9em}
+  .education-block p,.education-block ul{
+    margin:0;
+    color:#fff;
+    font-size:1em
+  }
 
   .education-block ul{padding:0 0 0 15px}
 
   #projects{
     padding:50px 15px;
-    border-bottom:1px solid #dcd9d9;
+    border-bottom:1px solid #fff;
     text-align:center
   }
 
   #projects h2{
-    color:#374054;
+    color:#D63E12;
     margin-bottom:50px
   }
 
@@ -485,7 +487,7 @@ body.active{overflow:hidden;
     max-width:900px;
     margin:0 auto 30px auto;
     overflow:hidden;
-    background:#fff;
+    background:#000000;
     border-radius:4px
   }
 
@@ -502,14 +504,14 @@ body.active{overflow:hidden;
   }
 
   .project-info h3{
-    font-size:1.5em;
+    font-size:2em;
     font-weight:300;
-    color:#374054;
+    color:#D63E12;
     margin:0 0 15px 0
   }
 
   .project-info p{
-    color:#74808a;
+    color:#fff;
     margin:0 0 15px 0;
     font-size:0.9em
   }
@@ -529,7 +531,7 @@ body.active{overflow:hidden;
   }
 
   #skills h2{
-    color:#374054;
+    color:#D63E12;
     margin-bottom:50px
   }
 
@@ -544,8 +546,8 @@ body.active{overflow:hidden;
     display:inline-block;
     margin:7px;
     padding:5px 10px;
-    color:#374054;
-    background:#e4e4ea;
+    color:#000000;
+    background:#D63E12;
     list-style:none;
     cursor:default;
     font-size:1.2em
@@ -559,7 +561,7 @@ body.active{overflow:hidden;
 
   #contact h2{
     margin:0 0 15px 0;
-    color:#fff;
+    color:#D63E12;
     font-weight:500
   }
 
@@ -575,20 +577,20 @@ body.active{overflow:hidden;
     border-radius:4px;
     border:none;
     margin-bottom:10px;
-    background:#1d6fa5;
+    background:#fff;
     color:#fff;
     transition:.5s ease all
   }
 
-  #contact-form input::-webkit-input-placeholder,#contact-form textarea::-webkit-input-placeholder{color:#fff}
+  #contact-form input::-webkit-input-placeholder,#contact-form textarea::-webkit-input-placeholder{color:#000000}
 
-  #contact-form input:-moz-placeholder,#contact-form textarea:-moz-placeholder{color:#fff;opacity:1}
+  #contact-form input:-moz-placeholder,#contact-form textarea:-moz-placeholder{color:#000000;opacity:1}
 
-  #contact-form input::-moz-placeholder,#contact-form textarea::-moz-placeholder{color:#fff;opacity:1}
+  #contact-form input::-moz-placeholder,#contact-form textarea::-moz-placeholder{color:#000000;opacity:1}
 
-  #contact-form input:-ms-input-placeholder,#contact-form textarea:-ms-input-placeholder{color:#fff}
+  #contact-form input:-ms-input-placeholder,#contact-form textarea:-ms-input-placeholder{color:#000000}
 
-  #contact-form input:focus,#contact-form textarea:focus{outline:none;background:#16527a}
+  #contact-form input:focus,#contact-form textarea:focus{outline:none;background:#D63E12}
 
   #contact-form textarea{
     height:150px;
@@ -602,7 +604,7 @@ body.active{overflow:hidden;
     border-radius:4px;
     padding:5px 10px;
     border:none;
-    color:#3498db;
+    color:#000000;
     font-weight:700;
     box-shadow:0 1px 3px rgba(0,0,0,0.12),0 1px 2px rgba(0,0,0,0.24);
     transition:.5s ease all
@@ -613,18 +615,18 @@ body.active{overflow:hidden;
   .optional-section{
     padding:50px 15px;
     text-align:center;
-    border-top:1px solid #dcd9d9
+    border-top:1px solid #fff
   }
 
   .optional-section h2{
-    color:#374054
+    color:#D63E12
   }
 
   .optional-section-block{
     max-width:700px;
     margin:0 auto 30px auto;
     padding:15px;
-    border:1px solid #dcd9d9;
+    border:1px solid #fff;
     background:#fff;
     text-align:left
   }
