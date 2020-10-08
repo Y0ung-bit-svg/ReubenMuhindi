@@ -188,7 +188,7 @@ body.active{overflow:hidden;
 
   .btn-rounded-white{
     display:inline-block;
-    color:#D63E12;
+    color:#000000;
     padding:15px 25px;
     border:3px solid #000000;
     border-radius:30px;
@@ -233,7 +233,7 @@ body.active{overflow:hidden;
     height:100vh;
     min-height:500px;
     max-height:1080px;
-    background:url(../images/lead-bg.jpg);
+    background:url(../images/lead-3.jpeg);
     background-size:cover;
     padding:15px;
     overflow:hidden
@@ -261,7 +261,7 @@ body.active{overflow:hidden;
 
   #lead-content h2{
     color:#000000;
-    font-weight:500;
+    font-weight:600;
     font-size:2.25em;
     margin-bottom:15px
   }
@@ -274,7 +274,7 @@ body.active{overflow:hidden;
     right:0;
     bottom:0;
     left:0;
-    background:rgba(0,0,0,0.0);
+    background:rgba(255,40,40,0.5);
     z-index:1
   }
 
@@ -385,7 +385,7 @@ body.active{overflow:hidden;
     margin:0 0 15px 0
   }
 
-  .vtimeline-content p{
+  .vtimeline-content li{
     color:#000000;
     font-size:1em;
     margin:0
@@ -482,7 +482,7 @@ body.active{overflow:hidden;
     margin-bottom:50px
   }
 
-  .project{
+.project{
     position:relative;
     max-width:900px;
     margin:0 auto 30px auto;
@@ -524,7 +524,7 @@ body.active{overflow:hidden;
   }
 
   #more-projects{display:none}
-
+ 
   #skills{
     padding:50px 15px;
     text-align:center
@@ -533,6 +533,10 @@ body.active{overflow:hidden;
   #skills h2{
     color:#D63E12;
     margin-bottom:50px
+  }
+
+  #skills h3{
+    color: #fff
   }
 
   #skills ul{
@@ -578,7 +582,7 @@ body.active{overflow:hidden;
     border:none;
     margin-bottom:10px;
     background:#fff;
-    color:#fff;
+    color:#000000;
     transition:.5s ease all
   }
 
