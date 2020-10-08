@@ -178,7 +178,7 @@ body.active{overflow:hidden;
 
   .social a{
     display:block;
-    color:#74808a;
+    color:white;
     padding:10px
   }
 
@@ -524,7 +524,7 @@ body.active{overflow:hidden;
   }
 
   #more-projects{display:none}
- 
+
   #skills{
     padding:50px 15px;
     text-align:center
